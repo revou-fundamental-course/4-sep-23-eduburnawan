@@ -1,0 +1,58 @@
+body {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-seri;
+}
+header {
+    background-color: #016A70;
+    color: whitesmoke;
+    text-align: center;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+label {
+    display: block;
+    margin-bottom: 4px;
+    font-size: 16px;
+    font-weight: bold;
+    justify-content: center;
+    color: #016A70;
+}
+
+input {
+    padding: 6px;
+    border: 1px solid #016A70;
+    border-radius: 6px;
+    outline: none;
+}
+
+button {
+    padding: 10px 16px;
+    border-radius: 6px;
+    font-weight: bold;
+    background-color: #D2DE32;
+    color: #016A70;
+}
+
+button:hover {
+    background-color: whitesmoke;
+    transition: .5s ease-in-out;
+}
+
+input:focus {
+    border-color: black;
+}
+
+.luasInputSection {
+    display: flex;
+    flex-direction: column;
+    margin-top: 24px;
+}
+
+.inputButtonSection {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 8px;
+}
