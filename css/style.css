@@ -1,20 +1,42 @@
 body {
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-seri;
+    height: 60vh;
 }
-header {
+
+.header {
     background-color: #016A70;
     color: whitesmoke;
     text-align: center;
-    height: 60px;
+    height: 15vh;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
+.image {
+    display: flex;
+    justify-content: center;
+    align-items: center
+}
+
+.aImage {
+    width: 240px;
+    height: 240px;
+}
+
+.rumus {
+    display: table-row;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+
 label {
     display: block;
     margin-bottom: 4px;
-    font-size: 16px;
+    font-size: 12px;
     font-weight: bold;
     justify-content: center;
     color: #016A70;
@@ -55,4 +77,21 @@ input:focus {
     flex-direction: row;
     justify-content: center;
     margin-top: 8px;
+}
+
+.output {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+footer {
+    background-color: #016A70;
+    color: whitesmoke;
+    text-align: center;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 15vh;
+    margin-top: 50px;
 }
