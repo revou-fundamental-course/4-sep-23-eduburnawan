@@ -82,6 +82,7 @@ input:focus {
 .output {
     font-size: 20px;
     font-weight: bold;
+    color: red;
 }
 
 footer {
