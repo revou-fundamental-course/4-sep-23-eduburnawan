@@ -85,7 +85,7 @@ input:focus {
     color: red;
 }
 
-footer {
+.footer {
     background-color: #016A70;
     color: whitesmoke;
     text-align: center;
